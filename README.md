@@ -1,6 +1,8 @@
 # n8n-root
 Containerfiles for n8n: same as upstream, but rootful.
 
+> This is forked from [`dvisionlab/n8n-root`](https://github.com/dvisionlab/n8n-root), with minor modifications.
+
 n8n is great, but its Dockerfiles assume that it will be deployed using rootful
 docker, so user privileges will be dropped and the server will be executed as
 `node` user. This is Ok for the general use-case.
